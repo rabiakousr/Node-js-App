@@ -1,4 +1,3 @@
-# Build stage
 FROM node:20-alpine as build
 
 # Set working directory
@@ -32,3 +31,4 @@ EXPOSE 3000
 
 # Start the application
 CMD ["serve", "-s", "dist", "-l", "3000"]
+
